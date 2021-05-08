@@ -1,0 +1,33 @@
+#container {
+  width: 100%;
+  margin: auto;
+}
+#first {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: linear-gradient(to bottom right, rgba(203, 204, 206,1),rgba(203, 204, 206,0.5));
+}
+#second {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: linear-gradient(to bottom right, rgba(226, 226, 228,1),rgba(226, 226, 228,0.5));
+}
+#clear {
+  clear: both;
+  height: 80px;
+}
+.innerbox {
+  width: 70%;
+  padding-left: 8%;
+}
+.header {
+  font-size: xx-large;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+.about{
+  font-size: x-large;
+  line-height: 200%;
+}

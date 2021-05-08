@@ -1,0 +1,42 @@
+h1{
+  font-size: 500%;
+  color: black;
+  text-align: center;
+  padding: 0px
+}
+div.picture1{
+  background-image: url('../../assets/zunftsymbol.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:400px;
+  height:400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px
+}
+div.info{
+  font-size: 180%;
+  white-space: pre-line;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.instabox {
+  padding: 20px;
+  float: right;
+}
+.instagram {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 38px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
