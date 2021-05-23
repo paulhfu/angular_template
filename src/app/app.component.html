@@ -1,5 +1,24 @@
-<app-nav-bar></app-nav-bar>
-<app-header></app-header>
-<app-slider></app-slider>
-<app-services></app-services>
-<app-impressum></app-impressum>
+<ng-container [ngSwitch]="screensize">
+  <div *ngSwitchCase="'large'" id="bg_div_w1">
+    <app-nav-bar></app-nav-bar>
+    <app-header></app-header>
+    <app-slider></app-slider>
+  </div>
+  <div *ngSwitchCase="'med'" id="bg_div_w2">
+    <app-nav-bar-w1></app-nav-bar-w1>
+    <app-header-w1></app-header-w1>
+    <app-slider-w1></app-slider-w1>
+  </div>
+  <div *ngSwitchCase="'small'" id="bg_div_w2">
+    <app-nav-bar-w1></app-nav-bar-w1>
+    <app-header-w1></app-header-w1>
+    <app-slider-w1></app-slider-w1>
+  </div>
+
+  <app-services *ngSwitchCase="'large'"></app-services>
+  <app-services-w1 *ngSwitchCase="'med'"></app-services-w1>
+  <app-services-w1 *ngSwitchCase="'small'"></app-services-w1>
+  <app-impressum *ngSwitchCase="'large'"></app-impressum>
+  <app-impressum-w1 *ngSwitchCase="'med'"></app-impressum-w1>
+  <app-impressum-w1 *ngSwitchCase="'small'"></app-impressum-w1>
+</ng-container>

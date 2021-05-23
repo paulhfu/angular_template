@@ -1,0 +1,84 @@
+#container {
+  width: 100%;
+  margin: auto;
+}
+#first {
+  padding: 2%;
+  width: 50%;
+  height: 100%;
+  float: left;
+  outline: none;
+  color: black;
+  box-shadow: none;
+  background-color: transparent;
+}
+#second {
+  padding: 2%;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  width: 100px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 25% 0%;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.instabox {
+  width: 20%;
+  padding: 0px;
+  float: right;
+}
+.instagram {
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  line-height: 38px;
+  vertical-align: middle;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+.d-inline-block {
+  outline: none;
+  color: black;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.ngbDropdownMenu {
+  outline: none;
+  color: black;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+button {
+  outline: none;
+  color: black;
+  box-shadow: none;
+  background-color: transparent;
+}
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}

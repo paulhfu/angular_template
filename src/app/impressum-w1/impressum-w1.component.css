@@ -1,0 +1,38 @@
+#container {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(to bottom right, rgb(235, 235, 241, 1),rgba(235, 235, 241, 0.5));
+}
+#first {
+  white-space: pre-line;
+  padding-top: 30px;
+  padding-left: 2%;
+  width: 45%;
+  float: left;
+  height: 150px;
+  background-color: rgba(245, 245, 251, 0);
+}
+#second {
+  white-space: pre-line;
+  padding-top: 30px;
+  padding-left: 5%;
+  width: 45%;
+  float: left;
+  height: 150px;
+  background-color: rgba(245, 245, 251, 0);
+}
+#innerfirst {
+  font-size: 70%;
+  float:left;
+  width: 35%;
+  background-color: rgba(245, 245, 251, 0);
+}
+#innersecond {
+  font-size: 70%;
+  float:left;
+  width: 65%;
+  background-color: rgba(245, 245, 251, 0);
+}
+.innerbox {
+  padding-top: 10px;
+}

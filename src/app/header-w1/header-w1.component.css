@@ -1,0 +1,29 @@
+h1{
+  width: 100%;
+  font-size: 350%;
+  color: black;
+  text-align: center;
+  padding: 0px
+}
+#clear {
+  clear: both;
+  height: 0px;
+}
+div.picture1{
+  background-image: url('../../assets/zunftsymbol.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:200px;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px
+}
+div.info{
+  font-size: 100%;
+  white-space: pre-line;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
